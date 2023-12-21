@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collage Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/500b809900.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.19/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css"  rel="stylesheet" />
+
+</head>
+<style>
+    body{
+        font-family: 'Raleway', sans-serif;
+       
+    }
+    .scrolling-caption {
+            overflow: hidden;
+            white-space: nowrap;
+            animation: scrollLeftToRight 25s linear infinite;
+        }
+
+        @keyframes scrollLeftToRight {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+        ul.submenu{
+          transition: 0.3s;
+          transform: scaleY(0);
+          visibility: hidden;
+        }
+        ul.mainmenu li{
+          position: relative;
+        }
+       ul.mainmenu li:hover ul.submenu{
+        visibility: visible;
+        transform: scaleY(1);
+       }
+  
+
+</style>
+<body class="bg-gray-200">
+  <nav class="flex bg-black text-white text-2xl items-center justify-between px-20 py-2 " >
+    <div class="flex gap-8 ">
+        <p class=""><i class="fa-solid fa-envelope" style="color: #ffffff;"></i> micro.institute@gmail.com</p>
+      <a href="tel:০1767 805451"><i class="fa-solid fa-phone" style="color: #ffffff;"></i> +8801767 805451</a>
+                            
+    </div>
+    <div class="space-x-3 pr-10">
+        <button class="bg-red-500 rounded-lg p-4 border-0">Online Admission</button>
+        <a href="" class="text-orange-300 underline
+        ">Student login</a>
+        <a href="" class="text-3xl p-2 rounded-full bg-white"><i class="fa-brands fa-facebook ll text-3xl" style="color: #009600;"></i></a>
+        <a href="" class="text-3xl p-2 rounded-full bg-white"><i class="fa-brands fa-youtube text-3xl" style="color: #009600;"></i></a>
+        <a href="" class="text-3xl p-2 rounded-full bg-white"><i class="fa-brands fa-instagram text-3xl" style="color: #009600;"></i></a>
+    
+    </div>
+    
+</nav>
+<header class="sticky top-0 z-10" >
+ <div class="bg-zinc-200 drop-shadow-md flex ">
+  <img class="w-52 ml-5" src="Logo-removebg-preview.png" alt="">
+  
+<div class="mt-10 -ml-8">
+  <h1 class="text-[#009600] font-bold text-5xl drop-shadow-md	">Micro Institute</h1>
+  <p class="text-[#009600] font-bold text-5xl drop-shadow-md">Of Technology</p>
+</div>
+<div class="mt-10">
+  <ul class="mainmenu flex flex-wrap left-20 gap-8 w-10/12 text-2xl ml-24 font-bold text-[#009600]">
+      <li>Home</li>
+    
+      <li>About Us
+        <ul class="submenu w-56 p-5 rounded-lg z-10 absolute top-unset origin-top bg-white border-2	border-current">
+          <li class="pb-3 text-xl"><i class="fa-solid fa-angle-right" style="color: #009600;"></i> Why Choose Us</li>
+          <li class="text-xl"><i class="fa-solid fa-angle-right" style="color: #009600;"></i> All Teachers</li>
+        </ul>
+      </li><i class="fa-solid fa-caret-down -ml-5" style="color: #0c8831;"></i>
+       
+      <li>Admission
+        <ul class="submenu w-56 p-5 rounded-lg z-10 absolute top-unset origin-top bg-white border-2	border-current">
+          <li class="pb-3 text-xl"><i class="fa-solid fa-angle-right" style="color: #009600;"></i> Why Choose Us</li>
+          <li class="text-xl"><i class="fa-solid fa-angle-right" style="color: #009600;"></i> All Teachers</li>
+        </ul>
+      </li><i class="fa-solid fa-caret-down -ml-5" style="color: #0c8831;"></i>
+
+      <li>Academics
+        <ul class="submenu w-56 p-5 rounded-lg z-10 absolute top-unset origin-top bg-white border-2	border-current">
+          <li class="pb-3 text-xl"><i class="fa-solid fa-angle-right" style="color: #009600;"></i> Why Choose Us</li>
+          <li class="text-xl"><i class="fa-solid fa-angle-right" style="color: #009600;"></i> All Teachers</li>
+        </ul>
+      </li><i class="fa-solid fa-caret-down -ml-5" style="color: #0c8831;"></i>
+
+      <li>Diploma
+        <ul class="submenu w-56 p-5 rounded-lg z-10 absolute top-unset origin-top bg-white border-2	border-current">
+          <li class="pb-3 text-xl"><i class="fa-solid fa-angle-right" style="color: #009600;"></i> Why Choose Us</li>
+          <li class="text-xl"><i class="fa-solid fa-angle-right" style="color: #009600;"></i> All Teachers</li>
+        </ul>
+      </li><i class="fa-solid fa-caret-down -ml-5" style="color: #0c8831;"></i>
+
+      <li>Vocational</li>
+      <li>Result
+        <ul class="submenu w-56 p-5 rounded-lg z-10 absolute top-unset origin-top bg-white border-2	border-current">
+          <li class="pb-3 text-xl"><i class="fa-solid fa-angle-right" style="color: #009600;"></i> Why Choose Us</li>
+          <li class="text-xl"><i class="fa-solid fa-angle-right" style="color: #009600;"></i> All Teachers</li>
+        </ul>
+      </li><i class="fa-solid fa-caret-down -ml-5" style="color: #0c8831;"></i>
+      <li>Gallery</li>
+      <li>Contact</li>
+  </ul>
+</div>
+</div>
+</header>
+
+    <main>
+      <div class="carousel w-full h-[70vh]">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="micro.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="resources.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="student.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="orientation.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+
+
+
+        
+          
+          
+
+          
+          <h1 class="text-3xl pl-5 mb-3 text-[#009600] mt-5 font-bold">বিজ্ঞপ্তিঃ</h1>
+          <div class="bg-red-300 p-5">
+              
+              <div class="scrolling-caption text-2xl font-bold text-[#009600]">
+                  মাইক্রো ইনস্টিটিউট অব টেকনোলজি ৪ বছরের ডিপ্লোমা কোর্সে ভর্তি হতে এখনই ডায়াল করুন: +8801767-805451 অথবা micro.institute@gmail.com -এ যোগাযোগ করুন।
+              </div> 
+            </div>
+
+            <h1 class="text-5xl font-bold text-[#009600] text-center pt-8">Our Features</h1>
+            <div class="flex justify-around px-48 py-14">
+              <div class="card w-96 bg-[#009600] shadow-xl py-14 hover:bg-red-400">
+                <figure class="px-10 pt-16">
+                  <i class="fa-solid fa-users text-8xl" style="color: #ffffff;"></i>
+                </figure>
+                <div class="card-body items-center text-center text-white">
+                  <h2 class="card-title text-3xl">Exprience Teachers</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  
+                </div>
+              </div>
+              <div class="card w-96 bg-red-400 shadow-xl py-14">
+                <figure class="px-10 pt-16">
+                  <i class="fa-solid fa-chalkboard-user text-8xl" style="color: #ffffff;"></i>
+                </figure>
+                <div class="card-body items-center text-center text-white">
+                  <h2 class="card-title text-3xl">Exprience Teachers</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  
+                </div>
+              </div>
+              <div class="card w-96 bg-[#009600] hover:bg-red-400 shadow-xl py-14">
+                <figure class="px-10 pt-16">
+                  <i class="fa-solid fa-flask text-8xl" style="color: #ffffff;"></i>
+                </figure>
+                <div class="card-body items-center text-center text-white">
+                  <h2 class="card-title text-3xl">Exprience Teachers</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h1 class="text-5xl font-bold text-[#009600] text-center pt-8">Our Courses</h1>
+            </div>
+        <div class="flex justify-around px-28 py-14">
+            
+            <div class="parent max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 rounded-lg transform transition-transform hover:scale-110">
+              <a href="#">
+                  <img class="electrical rounded-t-lg h-64" src="EE Circuit Experiment.jpg" alt="" />
+              </a>
+              <div class="p-5">
+                  <a href="#">
+                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Electrical Engineering</h5>
+                  </a>
+                  <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                  <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                      Read more
+                       <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                      </svg>
+                  </a>
+              </div>
+            </div>
+            
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 rounded-lg transform transition-transform hover:scale-110">
+              <a href="#">
+                  <img class="rounded-t-lg h-64" src="NEM_mechanical.jpg" alt="" />
+              </a>
+              <div class="p-5">
+                  <a href="#">
+                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Mechanical Engineering</h5>
+                  </a>
+                  <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                  <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                      Read more
+                       <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                      </svg>
+                  </a>
+              </div>
+            </div>
+
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 rounded-lg transform transition-transform hover:scale-110">
+              <a href="#">
+                  <img class="rounded-t-lg h-64" src="coder_190517-800x450.jpg" alt="" />
+              </a>
+              <div class="p-5">
+                  <a href="#">
+                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Computer Engineering</h5>
+                  </a>
+                  <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                  <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                      Read more
+                       <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                      </svg>
+                  </a>
+              </div>
+            </div>
+<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 rounded-lg transform transition-transform hover:scale-110">
+  <a href="#">
+      <img class="rounded-t-lg h-64" src="electronics_lab-facilities-panel-767x460.jpg" alt="" />
+  </a>
+  <div class="p-5">
+      <a href="#">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Electronics Engineering</h5>
+      </a>
+      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+      <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+          Read more
+           <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+          </svg>
+      </a>
+  </div>
+</div>
+</div>
+    </main>
+    <footer class="flex justify-between px-28 bg-black items-center">
+    <div class="py-14">
+      <div class="flex">
+        <img class="w-48" src="Logo-removebg-preview.png" alt="">
+       <div class="mt-10 -ml-6">
+        <h1 class="text-white text-4xl font-bold">Micro institue</h1>
+        <p class="text-white text-4xl font-bold">Of Technology</p>
+     
+       </div>
+        
+      </div>
+      <div class="ml-16 space-y-3">
+        <p class="text-2xl font-bold text-white"><i class="fa-solid fa-location-dot text-2xl" style="color: #ffffff;"></i> Imandipur Rd, Majidpur,<br> Savar, Dhaka</p>
+        <p class="text-2xl font-bold text-white"><i class="fa-solid fa-phone text-2xl" style="color: #ffffff;"></i> 01767805451, 01774116489</p>
+        <p class="text-2xl font-bold text-white"><i class="fa-solid fa-envelope text-2xl" style="color: #ffffff;"></i> micro.institute@gmail.com</p>
+        <p class="text-2xl font-bold text-white"><i class="fa-solid fa-globe text-2xl" style="color: #ffffff;"></i> www.mit-poly.com </p>
+       </div>
+      </div>
+      <iframe class="w-[60vw] h-[60vh] relative left-28" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14597.196416403895!2d90.2591113!3d23.8435104!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755ebcdad771383%3A0x1b5a95631a1a84e1!2sMicro%20institute%20of%20technology!5e0!3m2!1sen!2sbd!4v1702732805257!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+
+</body>
+</html>

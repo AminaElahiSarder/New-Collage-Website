@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <style>
+        .scrolling-caption {
+            overflow: hidden;
+            white-space: nowrap;
+            animation: scrollRightToLeft 10s linear infinite;
+        }
+
+        @keyframes scrollRightToLeft {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-200 p-10">
+
+    <div class="scrolling-caption text-xl font-bold text-blue-500">
+        Your scrolling caption goes here. Make it as long as you want!
+    </div>
+
+</body>
+</html>
+
